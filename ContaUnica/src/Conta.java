@@ -3,7 +3,8 @@ public class Conta {
     private String titular;
     private double saldo;
     static int qtdContas = 0;
-
+    
+    //Criação do constructor
     public Conta(String pTitular){
         this.titular = pTitular;
         qtdContas++;
